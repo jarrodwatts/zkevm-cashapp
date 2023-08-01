@@ -10,8 +10,7 @@
     "lint": "next lint",
     "export": "next export",
     "generate": "npx thirdweb@latest generate",
-    "add-component": "npx --yes shadcn-ui@latest add",
-    "postinstall": "node postinstall.mjs"
+    "add-component": "npx --yes shadcn-ui@latest add"
   },
   "dependencies": {
     "@lens-protocol/react-web": "^1.2.2",
