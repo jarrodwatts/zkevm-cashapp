@@ -14,8 +14,12 @@
     "postinstall": "node postinstall.mjs"
   },
   "dependencies": {
+    "@lens-protocol/react-web": "^1.2.2",
     "@radix-ui/react-checkbox": "1.0.3",
+    "@radix-ui/react-separator": "^1.0.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-toast": "^1.1.4",
+    "@tanstack/react-query": "^4.32.0",
     "@thirdweb-dev/auth": "3.0.21",
     "@thirdweb-dev/chains": "0.1.15",
     "@thirdweb-dev/react": "^3",
@@ -29,9 +33,11 @@
     "react": "^18.2",
     "react-dom": "^18.2",
     "tailwind-merge": "^1.14.0",
-    "tailwindcss-animate": "^1.0.6"
+    "tailwindcss-animate": "^1.0.6",
+    "use-debounce": "^9.0.4"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^4.29.25",
     "@types/node": "^18.11.11",
     "@types/react": "^18",
     "autoprefixer": "^10.4.14",
